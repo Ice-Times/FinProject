@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>区块链供应链金融平台</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<h1>供应链金融平台</h1>
+		<div id="main">
+		<div id="p1">
+			<h3>交易平台</h3><br>
+			<form action='http://localhost:8080' method="get">
+			订单编号:
+			<input type="text" name="Num" value="" >
+			<br>
+			欠款人  :
+			<input type="text" name="From" value="">
+			<br>
+			收款人  :
+			<input type="text" name="To" value="" >
+			<br>
+			金额    ：
+			<input type="text" name="Mount" value="" >
+			<br>
+			截止日期 ：
+			<input type="text" name="Deadline" value="">
+			<br><br>
+			<input type="submit" value="提交"/>
+			
+			</form> 
+		
+		</div>
+		
+		
+		<div id="p2">
+			<h3>融资平台</h3><br>
+			<form action='http://localhost:8080' method="get">
+			订单编号:
+			<input type="text" name="Num" value="" >
+			<br>
+			融资人  :
+			<input type="text" name="To" value="">
+			<br><br>
+			<input type="submit" value="提交"/>
+			
+			</form> 
+		
+		</div>
+		
+		<div id="p3">
+			<h3>支付欠款</h3><br>
+			<form action='http://localhost:8080' method="get">
+			订单编号:
+			<input type="text" name="Num" value="" >
+			<br>
+			欠款人  :
+			<input type="text" name="From" value="">
+			<br><br>
+			<input type="submit" value="提交"/>
+			</form> 
+		
+		</div>
+		
+		</div>
+
+
+
+	</body>
+</html>
